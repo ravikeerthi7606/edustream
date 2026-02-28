@@ -1,0 +1,85 @@
+# =========================
+# 🔐 Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# 🐍 Python / Backend
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# =========================
+# ⚛️ React / Frontend
+# =========================
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# 📦 Package lock files (optional)
+# =========================
+# Uncomment if you don’t want lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# =========================
+# 🧠 IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# 🗂️ OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🎥 Media files (optional)
+# =========================
+# If storing videos locally for testing
+uploads/
+media/
+videos/
+
+# =========================
+# 🔐 Secrets / Keys
+# =========================
+*.pem
+*.key
+*.crt
+
+# =========================
+# 🧪 Testing / coverage
+# =========================
+coverage/
+htmlcov/
+
+# =========================
+# 🚀 Build outputs
+# =========================
+*.log
+*.tmp
+*.cache
